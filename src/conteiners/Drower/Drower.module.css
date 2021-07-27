@@ -1,0 +1,21 @@
+.Drower .content{
+width: 250px;
+height: 100%;
+position: fixed;
+background-color: rosybrown;
+transition: transform .3s ease-out;
+z-index: 1;
+
+}
+.open{
+transform: translateX(0)
+}
+.close{
+transform: translateX(-250px);
+
+}
+@media(max-width: 650px){
+    .clas{
+        z-index: 2;
+    }
+}
